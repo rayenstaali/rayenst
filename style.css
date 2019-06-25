@@ -1,0 +1,25 @@
+body
+{
+    background-image:Linear-gradient(217deg, rgba(0, 255, 76, 0.884), rgba(255, 230, 0, 0) 70.71%),
+
+    Linear-gradient(127deg, rgb(194, 233, 20), rgb(216, 253, 7) 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+div.container {
+    width:200;
+    border:1em solid yellowgreen;
+  }
+  
+  div.split {
+      background-color: aqua
+    box-sizing:border-box;
+    width:50%;
+    border:1em silver ridge;
+    float:left;
+  }
+  .split{
+      display: inline;
+  }
+
+
