@@ -5,21 +5,85 @@
    <meta rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="style.css">
    <title>rayen.staali</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
     <nav>
         <ul>
            <li><a href="index.html">home-page</a></li>
            <li><a href="courses.html">courses</a></li>
-           <li><a href="contact.html">contact-page</a></li>
+           <li><a href="contact.html">contact-page</a></li>     
         </ul>
     </nav>
+    <br>
     <center>
+            <div id="all1">
+                    <div id="boxes123">
+                    <div id="box1" > <img src="images (1).jpg"class="hover" >  <p><a href="#ex1" rel="modal:open"><button id="a" style="margin-top: -135px;display: none;" >view more</button></a></p>
+</div>
+                    <div id="box2"> <img src="images (3).jpg"class="hover"> <p><a href="#ex1" rel="modal:open"><button id="b" style="margin-top: -135px;display: none;"   >view more</button></a></p>
+                    </div>
+                    <div id="box3"><img src="images (2).jpg"class="hover">  <p><a href="#ex1" rel="modal:open"><button id="c" style="margin-top: -135px;display: none;">view more</button></a></p>
+                    </div>
+
+                </div>
+                    
+                    <div id="boxes456">
+                        <div id="box4"><img src="images (4).jpg"class="hover"><p><a href="#ex1" rel="modal:open"><button id="d" style="margin-top: -135px;display: none;" >view more</button></a></p>
+                        </div>
+                        <div id="box5"><img src="images (5).jpg"class="hover" >  <p><a href="#ex1" rel="modal:open"><button id="e" style="margin-top: -135px;display: none;">view more</button></a></p>
+                        </div>
+                        <div id="box6"><img src="images.jpg"class="hover"> <p><a href="#ex1" rel="modal:open"><button id="f" style="margin-top: -135px;display: none;">view more</button></a></p>
+                        </div>
+
+                    
+                    </div>
+
+                    <div id="boxes789">
+                        <div id="box7"><img src="lk,4.png"class="hover"> <p><a href="#ex1" rel="modal:open"><button id="g" style="margin-top: -135px;display: none;">view more</button></a></p>
+                        </div>
+                        <div id="box8"><img src="4im.png"class="hover">  <p><a href="#ex1" rel="modal:open"><button id="h" style="margin-top: -135px;display: none;">view more</button></a></p>
+                        </div>
+                        <div id="box9"><img src="hhh.png"class="hover">  <p><a href="#ex1" rel="modal:open"><button id="i" style="margin-top: -135px;display: none;">view more</button></a></p>
+                        </div>
+
+                    </div>
+                    <div id="ex1" class="modal">
+                            <p>This is GoMyCode Track. 
+                                    Each track has its own goal. 
+                                    By adopting this track, you chose your own goal.</p>
+                            <a href="#" rel="modal:close">Close</a>
+                          </div>
+                </div>
+
+        </div>
         <h1>your feed back</h1>
         <form>
             <br>
-            <textarea cols="50" rows="20"></textarea>
+            
         </form>
-    </center>
+     
+    <nav>
+        <button onclick="bold()">B</button>
+       <button onclick="italic()">I</button>
+       <button onclick="underline()">underlined</button>
+       <select id="ks" onchange="aman()">  
+           <option value="20px">20px</option>
+           <option value="30px">30px</option>
+           <option value="40px">40px</option>
+       </select> 
+       <select id="rs" onchange="family()"> 
+           <option>arial</option>
+           <option>sans serif</option>
+           <option>new times roman</option>
+       </select><br><br><br>
+    </nav>
+       <textarea id="box" cols="50" rows="20"></textarea>
+    </center> 
+  
+
 </body>
-</html>
+<script src="java.js"></script>
+</html> 
